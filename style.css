@@ -1,0 +1,266 @@
+/* Общие стили */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+/* Общие стили конец */
+
+/* Стили HEADER начало*/
+.menu__list {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.menu__list-item {
+  margin-left: 50px;
+  margin-right: 0;
+}
+
+.menu__list-link {
+  color: #212529;
+  font-weight: 400;
+}
+
+/* Стили HEADER конец*/
+
+/* Стили секции ABOUT начало*/
+.about__section {
+  padding-top: 50px;
+}
+
+.about__wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.about__icon-img {
+  width: 200px;
+  height: 200px;
+  margin-bottom: 20px;
+  position: relative;
+  border-radius: 50%;
+}
+
+.about__me-title {
+  text-align: center;
+}
+
+.about__me-text {
+  padding: 25px 50px;
+  box-shadow: 0px 7px 16px rgb(0 0 0 / 12%);
+  background-color: #fff;
+  border-radius: 25px;
+  max-width: 850px;
+  border: 1px solid #f1f1f1;
+  z-index: 1;
+}
+/* Стили секции ABOUT конец*/
+
+/* Стили секции SKILLS начало*/
+.skills {
+  padding: 40px 0;
+  position: relative;
+}
+
+.skills__title {
+  font-size: 32px;
+  text-align: center;
+  font-weight: 400;
+}
+
+.skills__cards-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 40px 0 20px 0;
+}
+
+.skills__cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  margin: 30px 60px;
+}
+
+.skills__cards img {
+  border-radius: 10px;
+  width: 90px;
+  height: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.skills__cards h2 {
+  font-size: 20px;
+  margin-bottom: 5px;
+  color: #000000;
+  font-weight: 700;
+}
+
+.skills__cards p {
+  color: #707070;
+  font-size: 14px;
+  line-height: 1.5;
+  max-width: 250px;
+}
+/* Стили секции SKILLS конец*/
+
+/* Стили секции EXPERIENCE AND EDUCATION начало*/
+.container__experience {
+  text-align: center;
+}
+
+.container__experience h2 {
+  margin: 0 auto;
+  padding-bottom: 50px;
+}
+
+.experience__cards-column {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.column {
+  flex: 0 1 calc(100% / 2 - 15px);
+  min-height: 100px;
+  margin-bottom: 20px;
+}
+
+.img__experience {
+  max-width: 100px;
+  padding: 0 5px 5px 0;
+  font-family: Montserrat;
+}
+
+.img__experience img {
+  max-width: 55px;
+}
+
+.card_-experience {
+  width: 100%;
+}
+
+.column {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.column__image {
+  width: 100px;
+}
+
+.column__image img {
+  width: 55px;
+  padding-top: 30px;
+}
+
+.edu-ex-section-title {
+  max-width: 100px;
+  padding: 0 5px 5px 0;
+}
+
+.edu-ex-section-title img {
+  max-width: 55px;
+}
+
+.card__education {
+  width: 100%;
+}
+/* Стили секции EXPERIENCE AND EDUCATION конец*/
+
+/* Стили секции CODE начало*/
+.code__exapmles h3 {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+.code__exapmles p {
+  margin: 0 auto;
+  padding: 25px 50px;
+  box-shadow: 0px 7px 16px rgb(0 0 0 / 12%);
+  background-color: #fff;
+  border-radius: 25px;
+  max-width: 850px;
+  border: 1px solid #f1f1f1;
+  z-index: 1;
+}
+/* Стили секции CODE конец*/
+
+/* Стили секции CONTACT начало*/
+.contact__me h2 {
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+.contact__me p {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.social-icons-img {
+  text-align: center;
+}
+.social-icons li {
+  display: inline-block;
+  list-style-type: none;
+}
+
+.social-icons li a {
+  border-bottom: none;
+}
+.social-icons li img {
+  width: 70px;
+  height: 70px;
+  margin-right: 20px;
+}
+
+/* Стили секции CONTACT конец */
+
+/* Стили FOOTER начало*/
+.footer__text {
+  padding-top: 20px;
+  text-align: center;
+}
+
+.footer__img {
+  width: 90px;
+}
+
+.rsschool__img {
+  padding-top: 20px;
+  width: 100px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+}
+/* Стили FOOTER конец*/
