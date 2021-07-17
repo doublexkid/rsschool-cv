@@ -40,5 +40,5 @@ Lawyer
 
 Work with registries, Russian post, courts of general jurisdiction, participation in court hearings, work with filing statements of claim/statements of court orders, receiving incoming calls.
 
-### Englisk Level
+### English Level
 B1
