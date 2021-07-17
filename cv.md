@@ -1,6 +1,6 @@
 ## Anna Mugu
 ### Contact Info
-[Email](anika.22@mail.ru)
+[GitHub](https://github.com/doublexkid)
 ### About me
 *My name is Ann and I'm a beginner at web development. A year ago, I become interested in this area and I decided to get knowlege about it. I spend all my free time learning new skills and coding. My goal is to start a new career as a Junior Frontend Developer.*
 ### Skills
