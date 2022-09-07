@@ -19,7 +19,8 @@ I am 25 years old, I work as a support engineer. I would like to change my caree
 - Adobe Photoshop, Figma
 
 # Code Example:
-```
+
+```javascript
 function getLengthOfMissingArray(arrayOfArrays) {
   arrayOfArrays = (arrayOfArrays) ? arrayOfArrays.map(a=> a ? a.length : 0) : [0];
     let maxSize =  Math.max(...arrayOfArrays), minSize = Math.min(...arrayOfArrays);
@@ -34,10 +35,14 @@ function getLengthOfMissingArray(arrayOfArrays) {
 
 ```
 
-# Education
+# Education and courses:
 
 * **Adyghe State University**
     * Law faculty
+
+
+### Work experience:
+*Nothing yet...*
 
 # Languages
 
